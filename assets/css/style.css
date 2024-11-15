@@ -1,0 +1,161 @@
+* { 
+  margin: 0; 
+  padding: 0; 
+} 
+ 
+body{ 
+  background-color: beige; 
+} 
+/* styling header */ 
+h1 { 
+  background-color: #D9EED9; 
+  text-align:center; 
+  padding-bottom: 25px; 
+} 
+ 
+/* styling the nav */ 
+ul { 
+  list-style-type: none; 
+  display: flex; 
+  justify-content: space-between; 
+  padding: 5% 27%; 
+} 
+nav a { 
+  color: #4caf50; 
+  text-decoration: none;
+} 
+nav a:hover{
+  background-color: dimgrey;
+}
+ 
+/* styling main */ 
+h2 { 
+  margin-left: 5%; 
+  padding-bottom: 4%; 
+} 
+ 
+.product-list { 
+  display: flex; 
+  justify-content: space-between; 
+  margin-left: 4%; 
+  margin-right: 4%; 
+} 
+.product { 
+  max-width: 31%; 
+  width: 31%; 
+  min-height: 77%; 
+  margin-bottom: 3%; 
+  background-color: white;
+  border-radius: 1%; 
+} 
+.product img { 
+  max-width:90%; 
+  width: 90%; 
+  margin: 5%; 
+  margin-top: 5%; 
+  margin-bottom: 10%;
+  border-radius: 12px; 
+} 
+.product h2 { 
+  text-align: center; 
+  margin-bottom: 2%; 
+  font-size: 1.75vw; 
+  font-family: Arial, Helvetica, sans-serif;
+   
+} 
+.product p { 
+  text-align: center; 
+  margin-left: 13%; 
+  margin-right: 13%; 
+  font-size: 1.25vw; 
+  font-family: Arial, Helvetica, sans-serif;
+   
+} 
+.product .price { 
+  color: aqua; 
+  margin-top: 3%; 
+} 
+ 
+/* footer styling */ 
+footer{ 
+  text-align: center; 
+  background-color: #124314; 
+  padding: 8px; 
+  color: white; 
+} 
+ 
+ 
+/* Media Queries for different screen sizes */ 
+@media (max-width: 1200px) { 
+  h1 { 
+    font-size: 3vw; 
+  } 
+  nav a { 
+    font-size: 1.5vw; 
+  } 
+  h2 { 
+    font-size: 2vw; 
+  } 
+  .product h2 { 
+    font-size: 3vw; 
+  } 
+  .product p { 
+    font-size: 1.3vw; 
+  } 
+  .product .price { 
+    font-size: 1.4vw; 
+  } 
+  footer { 
+    font-size: 1.4vw; 
+  } 
+} 
+ 
+@media (max-width: 768px) { 
+  h1 { 
+    font-size: 4vw; 
+  } 
+  nav a { 
+    font-size: 1.3vw; 
+  } 
+  h2 { 
+    font-size: 2.5vw; 
+  } 
+  .product h2 { 
+    font-size: 4vw; 
+  } 
+  .product p { 
+    font-size: 2vw; 
+  } 
+  .product .price { 
+    font-size: 2vw; 
+  } 
+  footer { 
+    font-size: 1.3vw; 
+  } 
+ 
+} 
+ 
+ 
+@media (max-width: 480px) { 
+  h1 { 
+    font-size: 5vw; 
+  } 
+  nav a { 
+    font-size: 1.4vw; 
+  } 
+  h2 { 
+    font-size: 3vw; 
+  } 
+  .product h2 { 
+    font-size: 5vw; 
+  } 
+  .product p { 
+    font-size: 2.5vw; 
+  } 
+  .product .price { 
+    font-size: 2.5vw; 
+  } 
+  footer { 
+    font-size: 1.5vw; 
+  } 
+}
